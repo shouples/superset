@@ -181,7 +181,6 @@ module.exports = {
         '*.stories.jsx',
         'fixtures.*',
       ],
-      excludedFiles: 'cypress-base/cypress/**/*',
       plugins: ['jest', 'jest-dom', 'no-only-tests', 'testing-library'],
       env: {
         'jest/globals': true,
@@ -214,7 +213,6 @@ module.exports = {
         '*.stories.tsx',
         '*.stories.jsx',
         'fixtures.*',
-        'cypress-base/cypress/**/*',
         'Stories.tsx',
         'packages/superset-ui-core/src/style/index.tsx',
       ],
