@@ -23,7 +23,7 @@ from textwrap import dedent
 
 import click
 
-REPO = "apache/superset"
+REPO = "shouples/superset"
 CACHE_REPO = f"{REPO}-cache"
 BASE_PY_IMAGE = "3.9-slim-bookworm"
 
