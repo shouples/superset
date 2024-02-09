@@ -255,7 +255,6 @@ metadata:
     helm-k8-deployment: "#FEC0A1"
     visualization_plugins: "#B2B2B2"
     community-feedback: "#EFA1AA"
-    cypress-tests: "#FDE380"
     product_feedback: "#D3B3DA"
     developers: "#9EE5E5"
     dashboard-level-access: "#D1C6BC"
