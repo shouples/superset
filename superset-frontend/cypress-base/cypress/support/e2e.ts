@@ -17,7 +17,6 @@
  * under the License.
  */
 import '@cypress/code-coverage/support';
-import '@applitools/eyes-cypress/commands';
 import failOnConsoleError from 'cypress-fail-on-console-error';
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
