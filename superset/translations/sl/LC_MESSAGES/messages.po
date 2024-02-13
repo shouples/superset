@@ -7136,10 +7136,6 @@ msgstr "Izvozi v .JSON"
 msgid "Export to Excel"
 msgstr "Izvozi v Excel"
 
-#: superset-frontend/src/dashboard/components/Header/HeaderActionsDropdown/index.jsx:301
-msgid "Export to PDF"
-msgstr "Izvozi v PDF"
-
 #: superset/views/base.py:595
 msgid "Export to YAML"
 msgstr "Izvozi v YAML"

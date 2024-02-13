@@ -21,7 +21,6 @@ import { Menu } from 'src/components/Menu';
 import DownloadAsImage from './DownloadAsImage';
 
 export interface DownloadMenuItemProps {
-  pdfMenuItemTitle: string;
   imageMenuItemTitle: string;
   addDangerToast: Function;
   dashboardTitle: string;
@@ -30,7 +29,6 @@ export interface DownloadMenuItemProps {
 
 const DownloadMenuItems = (props: DownloadMenuItemProps) => {
   const {
-    pdfMenuItemTitle,
     imageMenuItemTitle,
     addDangerToast,
     dashboardTitle,
