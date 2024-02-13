@@ -11025,10 +11025,6 @@ msgstr ""
 "\"Lastniki\" je seznam uporabnikov, ki lahko spreminjajo nadzorno ploščo. Iskanje "
 "je možno po imenu ali uporabniškem imenu."
 
-#: superset-frontend/src/utils/downloadAsPdf.ts:55
-msgid "PDF download failed, please refresh and try again."
-msgstr "Prenos PDF ni uspel. Osvežite in poskusite ponovno."
-
 #: superset-frontend/plugins/plugin-chart-table/src/controlPanel.tsx:407
 msgid "Page length"
 msgstr "Dolžina strani"
@@ -14222,7 +14218,6 @@ msgid "Sorry, something went wrong. Embedding could not be deactivated."
 msgstr "Nekaj je šlo narobe. Vgrajevanja ni mogoče deaktivirati."
 
 #: superset-frontend/src/dashboard/components/menu/DownloadMenuItems/DownloadAsImage.tsx:25
-#: superset-frontend/src/dashboard/components/menu/DownloadMenuItems/DownloadAsPdf.tsx:25
 #: superset-frontend/src/dashboard/components/menu/ShareMenuItems/index.tsx:71
 #: superset-frontend/src/dashboard/components/menu/ShareMenuItems/index.tsx:84
 #: superset-frontend/src/explore/components/EmbedCodeContent.jsx:58

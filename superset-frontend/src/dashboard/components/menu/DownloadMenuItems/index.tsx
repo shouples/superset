@@ -19,7 +19,6 @@
 import React from 'react';
 import { Menu } from 'src/components/Menu';
 import DownloadAsImage from './DownloadAsImage';
-import DownloadAsPdf from './DownloadAsPdf';
 
 export interface DownloadMenuItemProps {
   pdfMenuItemTitle: string;
@@ -41,13 +40,6 @@ const DownloadMenuItems = (props: DownloadMenuItemProps) => {
 
   return (
     <Menu selectable={false}>
-      <DownloadAsPdf
-        text={pdfMenuItemTitle}
-        addDangerToast={addDangerToast}
-        dashboardTitle={dashboardTitle}
-        logEvent={logEvent}
-        {...rest}
-      />
       <DownloadAsImage
         text={imageMenuItemTitle}
         addDangerToast={addDangerToast}
